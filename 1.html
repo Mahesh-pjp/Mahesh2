@@ -9,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #001f3f, #001f3f 50%, #0074D9);
+      background: linear-gradient(to bottom, #001225, #001f3f 50%, #0074D9);
       overflow: hidden;
       color: white;
       text-align: center;
@@ -40,7 +40,7 @@
     }
 
     button:hover {
-      background: #ff851b;
+      background: #c27029;
     }
 
     .stars {
@@ -57,7 +57,7 @@
       width: 2px;
       height: 2px;
       background: white;
-      animation: twinkle 3s infinite ease-in-out;
+      animation: twinkle 1s infinite ease-in-out;
     }
 
     @keyframes fadeIn {
@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1>Happy New Year!</h1>
-  <p>Wishing you a year filled with love, joy, and endless possibilities.</p>
+  <p>Bhagwan aapko wo saari khushiyan de jispe aapko haq hai .. Kabhi bhi udas mat rehna hamesha haste rehna ..aur mujhe yaad krte rehna <span>&#128521;</span> mujhe bhi bohot yaad aati h yrr aapki<span>&#128542;</span></p>
   <button onclick="displayMessage()">A Special Message for You</button>
 
   <div class="stars" id="stars"></div>
@@ -100,12 +100,12 @@
       message.style.padding = '20px';
       message.style.borderRadius = '10px';
       message.style.color = 'white';
-      message.innerHTML = '<h2>You are the most special part of my life. Happy New Year, my love!</h2>';
+      message.innerHTML = '<h3>Happy New Year jaan! hum dono ek dusre ka saath pasand h .. jub bhi saath baithte toh tum ghanto baithe rehte time ka pta hi ni lgta .. dono ko hi mn ni bharta h .. mujhe aap bohot pasand ho aur hamesha hi meri pasand rahoge .. hamare beech kaafi misunderstaing hui pta ni kya h time saath ni hamare ...lekin mujhpe bharosa rakho sab shi ho jaige.. kya hum ess new year ke saath ek new start bhi de iss relationship ko .. rules bnate h saath milke ki kya krna h kya ni krna kb milna h kb ni ek dusre ko aur samjhte h .. please na jaan</h3>';
       document.body.appendChild(message);
 
       setTimeout(() => {
         message.remove();
-      }, 5000);
+      }, 50000);
     }
   </script>
 </body>
